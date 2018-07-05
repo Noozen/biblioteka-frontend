@@ -1,0 +1,35 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse #
+.settings
+.project
+.classpath
+.studio
+target
+
+# Apple # 
+.DS_Store
+
+# Intellij #
+.idea
+*.iml
+*.log
+
+# logback
+logback.out.xml
+
+dist/
+node/
+node_modules/
+npm-debug.log
+target
+test-output
+test/e2e/reports
+test/unit/coverage
+yarn-error.log
+yarn.lock
