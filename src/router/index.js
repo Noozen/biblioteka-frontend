@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Service from '@/components/Service'
 import Bootstrap from '@/components/Bootstrap'
-import User from '@/components/User'
+import LateFees from '@/components/LateFees'
 
 Vue.use(Router)
 
@@ -25,9 +25,9 @@ export default new Router({
       component: Bootstrap
     },
     {
-      path: '/user',
-      name: 'User',
-      component: User
+      path: '/lateFees',
+      name: 'LateFees',
+      component: LateFees
     }
   ]
 })

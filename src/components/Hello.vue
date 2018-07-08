@@ -13,7 +13,7 @@
       <li>HowTo to play around with Bootstrap UI components:</li>
       <li><router-link :to="{ name: 'Bootstrap' }" exact target="_blank">/bootstrap</router-link></li>
       <li>HowTo to interact with the Spring Boot database backend:</li>
-      <li><router-link :to="{ name: 'User' }" exact target="_blank">/user</router-link></li>
+      <li><router-link :to="{ name: 'LateFees' }" exact target="_blank">/lateFees</router-link></li>
     </ul>
   </div>
 </template>
